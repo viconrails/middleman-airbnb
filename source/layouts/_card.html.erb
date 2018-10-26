@@ -1,0 +1,11 @@
+
+<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/<%=a_flat.city_slug%>');">
+    <div class="card-category"><%= a_flat.city_name%></div>
+      <div class="card-description">
+        <h2><%= a_flat.name %></h2>
+        <p><%= a_flat.description %></p>
+      </div>
+      <% image_tag "https://kitt.lewagon.com/placeholder/users/#{a_flat.owner}", class:"card-user" %>
+       <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+  <a class="card-link" href="#" ></a>
+</div>
